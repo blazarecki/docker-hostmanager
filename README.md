@@ -25,6 +25,10 @@ $ docker run -d --name docker-hostmanager -v /var/run/docker.sock:/var/run/docke
 
 To start automatically your container with your computer, add the option `--restart=always`
 
+### Tests
+
+To run test, execute the following command : `vendor/bin/phpunit`
+
 ### LICENSE
 
 [MIT](https://opensource.org/licenses/MIT)
